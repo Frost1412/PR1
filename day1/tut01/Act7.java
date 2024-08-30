@@ -31,6 +31,13 @@ public class Act7 {
         int popuyear5 = popuyear4 + populationchange;
         System.out.println("Year 5 have: " + popuyear5 +" people");
 
+//        Đây là sau khi đã ứng dụng vòng loop để giải quyết bài toán
+    for(int i = 1; i <= 5; i++) {
+        int a  = population += populationchange;
+
+        System.out.println("Dan so nam " + i + " la: " + a +" people.");
+    }
+
 
     }
 }
