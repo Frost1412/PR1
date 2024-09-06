@@ -1,12 +1,15 @@
 package PR1.day2;
+
+
 import java.util.Scanner;
 
-public class test2 {
+public class act1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int i = sc.nextInt();
+        int a = sc.nextInt();
         int b = sc.nextInt();
-        System.out.println(i + b);
-    }
+        System.out.println((int)Math.pow(a, b));
 
+
+    }
 }
