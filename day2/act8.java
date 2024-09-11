@@ -12,7 +12,6 @@ public class act8 {
             long totalHours = totalMinutes / 60;
             long currentHour = totalHours % 24;
 
-            // Display the current time in GMT
             System.out.println("Current time in GMT: " + currentHour + ":" + currentMinute + ":" + currentSecond);
 
 

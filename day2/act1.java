@@ -5,11 +5,13 @@ import java.util.Scanner;
 
 public class act1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        System.out.println((int)Math.pow(a, b));
-
+        System.out.printf("%-6s %-6s %-6s", "a", "b", "pow(a , b)");
+        System.out.println();
+        System.out.printf("%-6s %-6s %6s", 1, 2, (int) Math.pow(1, 2));
+        System.out.println();
+        System.out.printf("%-6s %-6s %6s", 2, 3, (int) Math.pow(2, 3));
+        System.out.println();
+        System.out.printf("%-6s %-6s %6s", 3, 4, (int) Math.pow(3, 4));
 
     }
 }
