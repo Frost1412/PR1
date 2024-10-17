@@ -27,6 +27,8 @@ public class BankAccountDemo {
         System.out.println(a);
         System.out.println(b);
 
+        b.monthlyFee();
+        System.out.println(b);
 
 
 
